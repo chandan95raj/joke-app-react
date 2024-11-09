@@ -5,7 +5,7 @@ import { getJoke } from "./services/api-client";
 import { Spin } from 'antd';
 
 const App = () => {
-  
+
   const getCurrentDate = () => {
     const today = new Date();
     return today.toLocaleDateString("en-GB", {
@@ -31,7 +31,7 @@ const App = () => {
       <div className="container">
         <div className="card">
           <div className="card-header d-flex align-items-center justify-content-between">
-            <h2>Joke App</h2>
+            <h2>Jokes App</h2>
             <Button fn={getJokesData} />
           </div>
           <div className="card-body">
