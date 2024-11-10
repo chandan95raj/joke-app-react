@@ -31,7 +31,7 @@ const App = () => {
       <div className="container">
         <div className="card">
           <div className="card-header d-flex align-items-center justify-content-between">
-            <h2>Jokes App</h2>
+            <h2 className="text-success m-0">Jokes App</h2>
             <Button fn={getJokesData} />
           </div>
           <div className="card-body">

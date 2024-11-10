@@ -1,6 +1,6 @@
 const Button = ({fn}) => {
   return (
-    <button className="btn btn-outline-success" onClick={fn}>Get New Joke</button>
+    <button className="btn btn-success" onClick={fn}>Get New Joke</button>
   )
 }
 
